@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-18T10:32:30.773Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="JErgE8SATPUyAAna8gPe" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-18T10:34:52.738Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Mxf9aRKLChKRFa8qOMIg" version="24.4.4" type="github">
   <diagram name="Страница — 1" id="stip9UstteszHj4OPxRw">
-    <mxGraphModel dx="503" dy="271" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -128,17 +128,25 @@
             <mxPoint x="-14" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UhohhzFJ1dDM9mg7Cj9z-44" value="Предоставляет варианты доставки" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="280.0010344827586" y="610.0000000000001" as="geometry" />
-        </mxCell>
-        <mxCell id="UhohhzFJ1dDM9mg7Cj9z-45" value="" style="endArrow=open;html=1;rounded=0;endFill=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="407" y="620" as="sourcePoint" />
-            <mxPoint x="147" y="620" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="UhohhzFJ1dDM9mg7Cj9z-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="UhohhzFJ1dDM9mg7Cj9z-46" target="UhohhzFJ1dDM9mg7Cj9z-53">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UhohhzFJ1dDM9mg7Cj9z-46" value="Платежная система" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="40" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UhohhzFJ1dDM9mg7Cj9z-51" value="" style="endArrow=open;html=1;rounded=0;endFill=0;entryX=-0.002;entryY=0.391;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="UhohhzFJ1dDM9mg7Cj9z-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="419" y="574.59" as="sourcePoint" />
+            <mxPoint x="930" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhohhzFJ1dDM9mg7Cj9z-52" value="Создает заказ, вычисляет итоговую цену и перенаправляет на платежную систему" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="688.9951724137928" y="564.5855172413793" as="geometry">
+            <mxPoint x="-14" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UhohhzFJ1dDM9mg7Cj9z-53" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="546" width="10" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
